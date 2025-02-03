@@ -2,7 +2,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import ListProduct from '../_components/ListProduct'
+import ListProduct from '../../_components/ListProduct'
 
 const page = () => {
   const [lists, setLists] = useState([]);

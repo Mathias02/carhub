@@ -29,7 +29,7 @@ const ListProduct = ({list}) => {
                 <p>electric</p>
                 <p>diesel</p>
             </div> 
-            <Link href={'/booking'} className='px-5 py-3 bg-primary text-white mt-2 rounded-full'>Go ahead rent me</Link>
+            <Link href={`/booking/${list.id}`} className='px-5 py-3 bg-primary text-white mt-2 rounded-full hover:bg-purple-950 hover:text-blue-400'>Go ahead rent me</Link>
         </div>
     </div>
   )

@@ -73,7 +73,7 @@ const page = () => {
               </svg>
             </div>
 
-            <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+            <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Janvier</p>
           </div>
         </div>
 
@@ -146,7 +146,7 @@ const page = () => {
               </svg>
             </div>
 
-            <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+            <p className="mt-0.5 text-lg font-medium text-gray-900">Richards Mukeba</p>
           </div>
         </div>
 
@@ -219,7 +219,7 @@ const page = () => {
               </svg>
             </div>
 
-            <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+            <p className="mt-0.5 text-lg font-medium text-gray-900">Jack Sart</p>
           </div>
         </div>
 
