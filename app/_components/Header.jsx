@@ -15,16 +15,16 @@ const path = usePathname()
             <div className='mr-8 font-semibold text-2xl text-primary'>CarRental</div>
             <ul className='hidden md:flex gap-4 ml-5'>
                 <li>
-                    <Link className={`${'path==/?text-primary:'}`} href={'/'}>Home</Link>
+                    <Link className={`${path==='/'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/'}>Home</Link>
                 </li>
                 <li>
-                    <Link className='text-primary cursor-pointer' href={'/testimonials'}>testimonials</Link>
+                    <Link className={`${path==='/testimonials'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/testimonials'}>testimonials</Link>
                 </li>
                 <li>
-                    <Link className='text-primary cursor-pointer' href={'/about'}>about</Link>
+                    <Link className={`${path==='/about'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/about'}>about</Link>
                 </li>
                 <li>
-                    <Link className='text-primary cursor-pointer' href={'/contact'}>contact</Link>
+                    <Link className={`${path==='/contact'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/contact'}>contact</Link>
                 </li>
             </ul>
             <Image src={'/hamburger.png'} width={20} height={20} alt='logo' className='md:hidden text-2xl w-6 cursor-pointer' />

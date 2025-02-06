@@ -15,7 +15,7 @@ const page = () => {
         <div className="flex items-center gap-4">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://assembly.gov.vc/assembly/images/stories/Clerk%20-%20Mrs%20Debroah%20Alexander-Charles.jpg"
             className="size-14 rounded-full object-cover"
           />
 
@@ -73,7 +73,7 @@ const page = () => {
               </svg>
             </div>
 
-            <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Janvier</p>
+            <p className="mt-0.5 text-lg font-medium text-gray-900">Suzan Wegner</p>
           </div>
         </div>
 
@@ -88,7 +88,7 @@ const page = () => {
         <div className="flex items-center gap-4">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://media.istockphoto.com/id/1148808852/photo/casual-businessman-portrait-while-standing-in-the-office-with-folded-arms.jpg?s=612x612&w=0&k=20&c=GUaX2eiFcJWHn2dxSNp8PAVY9ir8ydyLoZH5XFzNgqE="
             className="size-14 rounded-full object-cover"
           />
 

@@ -1,5 +1,6 @@
 "use client"
 
+import { Button } from '@/components/ui/button';
 import { Cable, Fuel, Gauge } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -45,6 +46,11 @@ useEffect(() =>{
   fetchedDataId()
 },[])
 
+const submitForm = (e) => {
+ e.preventDefault();
+ console.log('form submitted')
+}
+
   return (
 <div>
   <div className='max-w-screen-lg bg-white lg:h-screen mx-auto rounded-lg px-6 text-center sm:mb-12'>
@@ -66,9 +72,9 @@ useEffect(() =>{
         </div>
       </div>
       <div className='px-auto py-3 lg:py-3 px-10 border'>
-        <h1 className='py-2 text-xl text-primary'>Provide your details to book</h1>
+        <h1 className='py-2 text-xl text-primary'>Provide your details before booking</h1>
         <div>
-          <form className='py-4'>
+          <form className='py-4'onSubmit={submitForm}>
             <div>
                 <label htmlFor="fname" className="focus:outline my-2 block text-xs font-medium text-gray-700 text-left">First Name</label>
                 <input
@@ -148,7 +154,8 @@ useEffect(() =>{
       </div>
     </div>
     <Link href={'/payment'} className='px-11 text-white bg-primary border py-3 hover:bg-purple-950
-     hover:text-blue-400 rounded-lg'>Submit</Link>
+     hover:text-blue-400 rounded-lg'>Submit
+     </Link>
   </div>
 </div>
   
