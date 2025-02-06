@@ -3,7 +3,7 @@ const nextConfig = {
     reactStrictMode: false,
     
     images: {
-        domains: ["localhost"]
+        domains: ["remotePatterns"]
     }
 };
 
