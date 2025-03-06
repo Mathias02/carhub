@@ -1,5 +1,5 @@
 {
-    "cars" : [
+    "cars" = [
         {
           "id":1,
           "name": "Mini Cooper",
