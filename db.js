@@ -1,5 +1,5 @@
-{
-    "cars" = [
+
+    cars = [
         {
           "id":1,
           "name": "Mini Cooper",
@@ -91,4 +91,4 @@
             "description": "lest you don't get hurt"
           }
     ]
-}
+
