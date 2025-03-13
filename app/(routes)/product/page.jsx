@@ -1,11 +1,14 @@
-
 "use client"
 
-import React, { useEffect, useState } from 'react'
-import ListProduct from '../../_components/ListProduct'
+import ListProduct from '@/app/_components/ListProduct';
+import React, { useEffect, useState } from 'react';
 
-const page = () => {
-  const [lists, setLists] = useState([]);
+
+
+
+export default function Home() {
+
+  const[lists, setLists] = useState([]);
 
   const fetchedData = () => {
         fetch('http://localhost:4000/cars')
@@ -48,5 +51,3 @@ const page = () => {
     </div>
   )
 }
-
-export default page

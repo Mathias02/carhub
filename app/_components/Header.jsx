@@ -18,6 +18,9 @@ const path = usePathname()
                     <Link className={`${path==='/'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/'}>Home</Link>
                 </li>
                 <li>
+                    <Link className={`${path==='/product'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/product'}>Product</Link>
+                </li>
+                <li>
                     <Link className={`${path==='/testimonials'?'bg-purple-900 p-2 px-6 rounded-sm':''} text-gray-400`} href={'/testimonials'}>testimonials</Link>
                 </li>
                 <li>
