@@ -1,0 +1,95 @@
+{
+  "cars" : [
+    {
+      "id":1,
+      "name": "Mini Cooper",
+      "brand": "Min Cooper",
+      "category": "Iphone",
+      "imageFile": "985475.jpg",
+      "price": 39.42,
+      "description": "1969, the MINI brand was started and produced by the Rover Group, previously known as BL until 2000. BMW MINI Cooper came to be after the purchase of MINI in 1996. But, who manufactures MINI Cooper? BMW!"
+    },
+    {
+        "id":2,
+        "name": "Iphone",
+        "brand": "Convertible Mercedez",
+        "category": "Iphone",
+        "imageFile": "conv.jpg",
+        "price": 40.50,
+        "description": "Biturbo V8 power puts the wind in your sails, while an adaptive suspension unravels winding roads. Between the open road and the wide sky, an S-Class Cabriolet has a way of making every drive in Irvine feel like a deep breath of fresh air."
+      },
+      {
+        "id":3,
+        "name": "Iphone",
+        "brand": "Fiat",
+        "imageFile": "fiat copy.jpg",
+        "category": "Iphone",
+        "price": 34.20,
+        "description": "From the Latin for let it be done, the word fiat is a binding edict issued by a person in command. It can gain an almost Biblical aura of authority, like a movie Pharaoh saying, So let it be written, so let it be done. So let it be a fiat."
+      },
+      {
+        "id":4,
+        "name": "Iphone",
+        "brand": "Apple",
+        "imageFile": "121547.jpg",
+        "category": "Iphone",
+        "price": 58.25,
+        "description": "lest you don't get hurt"
+      },
+      {
+        "id":5,
+        "name": "Iphone",
+        "brand": "Apple",
+        "imageFile": "326524.jpg",
+        "category": "Iphone",
+        "price": 55.20,
+        "description": "lest you don't get hurt"
+      },
+      {
+        "id":6,
+        "name": "Iphone",
+        "brand": "Apple",
+        "imageFile": "gti.png",
+        "category": "Iphone",
+        "price": 48.11,
+        "description": "lest you don't get hurt"
+      },
+      {
+        "id":7,
+        "name": "Iphone",
+        "brand": "Apple",
+        "imageFile": "63214.jpg",
+        "category": "Iphone",
+        "price": 60,
+        "description": "lest you don't get hurt"
+      },
+      {
+        "id":8,
+        "name": "Iphone",
+        "brand": "Apple",
+        "imageFile": "332012.png",
+        "category": "Iphone",
+        "price": 54.20,
+        "description": "lest you don't get hurt"
+      },
+      {
+        "id":9,
+        "name": "Iphone",
+        "brand": "Apple",
+        "imageFile": "996521.jpg",
+        "category": "Iphone",
+        "price": 59.12,
+        "description": "lest you don't get hurt"
+      },
+      {
+        "id":10,
+        "name": "Iphone",
+        "brand": "Limousine",
+        "imageFile": "limousine-car.jpg",
+        "category": "Iphone",
+        "price": 40,
+        "description": "lest you don't get hurt"
+      }
+   ]
+
+}
