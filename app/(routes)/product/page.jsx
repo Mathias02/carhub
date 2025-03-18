@@ -4,14 +4,14 @@ import ListProduct from '@/app/_components/ListProduct';
 import React, { useEffect, useState } from 'react';
 
 
-
+const url = "http://localhost:3200/api/cars";
 
 export default function Home() {
-
+  
   const[lists, setLists] = useState([]);
 
   const fetchedData = () => {
-        fetch('http://localhost:4000/cars')
+        fetch(url)
           .then((resp) => {
               if(resp.ok){
                return resp.json()

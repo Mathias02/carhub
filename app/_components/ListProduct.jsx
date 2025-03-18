@@ -1,15 +1,17 @@
+import { Button } from '@/components/ui/button'
 import { Cable, Fuel, Gauge} from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 const ListProduct = ({list}) => {
+    console.log(list)
   return (
     <div>
         <div className='border text-center flex flex-col'>
             <Image
-                alt="abc"
-                src={'http://localhost:4000/cars/' + list.imageFile}
+                alt="cars"
+                src={'/cars/'+list.imageFile}
                 width={150}
                 height={100}
                 className="h-44 w-96 object-contain sm:h-60 lg:h-82"
@@ -29,7 +31,7 @@ const ListProduct = ({list}) => {
                 <p>electric</p>
                 <p>diesel</p>
             </div> 
-            <Link href={`/product/${list.id}`} className='px-5 py-3 bg-primary text-white mt-2 rounded-full hover:bg-purple-950 hover:text-blue-400'>Go ahead rent me</Link>
+            <Link href={'/product/'+list.id} className='px-5 py-3 bg-primary text-white mt-2 rounded-full hover:bg-purple-950 hover:text-blue-400'>Go ahead rent me</Link>
         </div>
     </div>
   )
