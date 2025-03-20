@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const ListProduct = ({list}) => {
-    console.log(list)
+   
   return (
     <div>
         <div className='border text-center flex flex-col'>

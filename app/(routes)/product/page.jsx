@@ -20,7 +20,6 @@ export default function Home() {
               throw new Error()
           })
           .then((data) =>{
-            console.log(data)
             setLists(data)
           })
           .catch((error) => {
