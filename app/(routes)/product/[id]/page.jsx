@@ -25,7 +25,6 @@ const page = ({params}) => {
     })
     .then((data) =>{
       setItem(data);
-      console.log(productId)
     })
     .catch((error) => {
       alert('unable to get data')
