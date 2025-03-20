@@ -9,10 +9,10 @@ import Link from 'next/link';
 
 const url = "https://serverpart.vercel.app/api/cars";
 
-const page = () => {
+const page = ({params}) => {
 
-  const [item,setItem] = useState();
-  const {id} = useParams()
+  const [item,setItem] = useState([]);
+  const id = params.id
 
   const fetchedDataId = () => {
     fetch(`${url}+${id}`)
