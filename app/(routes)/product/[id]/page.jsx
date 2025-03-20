@@ -15,7 +15,7 @@ const page = ({params}) => {
   const id = params.id
 
   const fetchedDataId = () => {
-    fetch(`${url}+${id}`)
+    fetch(`${url}/+${id}`)
     .then((resp) => {
       console.log(resp)
         if(resp.status == 200){
