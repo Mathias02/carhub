@@ -7,7 +7,7 @@ import { Cable, Fuel, Gauge } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-
+const url = "https://serverpart.vercel.app/api/cars";
 
 const page = () => {
 
@@ -15,7 +15,7 @@ const page = () => {
   const {id} = useParams()
 
   const fetchedDataId = () => {
-    fetch(`http://localhost:3200/api/cars/${id}`)
+    fetch(`${url}+${id}`)
     .then((resp) => {
       console.log(resp)
         if(resp.status == 200){
