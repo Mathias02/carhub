@@ -15,7 +15,7 @@ const page = () => {
   const {productId} = useParams()
 
   const fetchedDataId = () => {
-    fetch(`"https://serverpart.vercel.app/api/cars/"${productId}`)
+    fetch(`https://serverpart.vercel.app/api/cars/${productId}`)
     .then((resp) => {
       console.log(resp)
         if(resp.status == 200){
