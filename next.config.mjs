@@ -5,7 +5,7 @@ const nextConfig = {
       return [
         {
           source: "/api/cars/:path*",
-          destination: "http://localhost:3200/api/cars/:path*",
+          destination: "https://serverpart.vercel.app/api/cars",
         },
       ];
     },
