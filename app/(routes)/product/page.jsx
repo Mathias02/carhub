@@ -4,7 +4,7 @@ import ListProduct from '@/app/_components/ListProduct';
 import React, { useEffect, useState } from 'react';
 
 
-const url = "http://localhost:3200/api/cars";
+const url = "https://serverpart.vercel.app/api/cars";
 
 export default function Home() {
   
