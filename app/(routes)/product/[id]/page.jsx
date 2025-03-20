@@ -12,10 +12,10 @@ import Link from 'next/link';
 const page = () => {
 
   const [item,setItem] = useState();
-  const {productId} = useParams()
+  const {id} = useParams()
 
   const fetchedDataId = () => {
-    fetch(`https://serverpart.vercel.app/api/cars/${productId}`)
+    fetch(`http://localhost:3200/api/cars/${id}`)
     .then((resp) => {
       console.log(resp)
         if(resp.status == 200){
